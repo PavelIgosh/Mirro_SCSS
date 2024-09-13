@@ -91,3 +91,239 @@ li {
   color: #3A5F56;
   margin-bottom: 17px;
 }
+
+.services {
+  padding: 100px 0;
+}
+.services__arrow {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.services__title {
+  color: #3A5F56;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  margin-bottom: 11px;
+}
+.services__text {
+  color: #292C32;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 590px;
+  margin: 0 auto;
+  margin-bottom: 17px;
+}
+.services__text_center {
+  text-align: center;
+}
+.services__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 40px;
+}
+.services__card {
+  max-width: 320px;
+  background-color: #F4F3F0;
+  padding: 30px;
+  border-radius: 16px;
+}
+.services__icon {
+  height: 48px;
+  width: 48px;
+  margin-bottom: 9px;
+}
+.services__card-title {
+  color: #3A5F56;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 6px;
+}
+.services__link {
+  color: #3A5F56;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.services__link::after {
+  content: "";
+  background-image: url(../img/Arrow-Icon.svg);
+  display: block;
+  width: 20px;
+  height: 10px;
+}
+
+.store {
+  padding: 100px 0;
+  background-color: #F4F3F0;
+}
+.store__icon {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.store__title {
+  color: #DB343B;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  margin-bottom: 11px;
+}
+.store__text {
+  color: #3A5F56;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 590px;
+  margin: 0 auto;
+  margin-bottom: 17px;
+}
+.store__text_center {
+  text-align: center;
+}
+.store__row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+.store__card {
+  max-width: 380px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+.store__text-block {
+  padding: 30px;
+}
+.store__card-title {
+  color: #3A5F56;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 11px;
+}
+.store__link {
+  display: flex;
+  justify-content: center;
+  color: #3A5F56;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.store__link::after {
+  content: "";
+  background-image: url(../img/Arrow-Icon.svg);
+  display: block;
+  width: 20px;
+  height: 10px;
+}
+
+.contact {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+.contact__card {
+  background-color: #F4F3F0;
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  padding: 80px;
+}
+.contact__title {
+  max-width: 310px;
+  margin-right: 200px;
+  color: #292C32;
+  font-size: 28px;
+  line-height: 33px;
+}
+.contact__btn {
+  padding: 15px 25px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.footer {
+  padding: 100px 0;
+  background-color: #292C32;
+}
+.footer__logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+}
+.footer__row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+.footer__list {
+  max-width: 220px;
+  padding-right: 25px;
+}
+.footer__pages {
+  margin-bottom: 32px;
+}
+.footer__title {
+  color: #B87D58;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.footer__items {
+  color: #fff;
+  margin-top: 13px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.footer__preset {
+  margin-bottom: 22px;
+}
+.footer__text {
+  color: #fff;
+  margin-top: 13px;
+  font-size: 16px;
+  line-height: 22px;
+}
+.footer__email-block {
+  padding: 15px 0;
+  width: 460px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+.footer__email-input {
+  width: 360px;
+  border: 0px;
+  outline: none;
+  margin-left: 25px;
+  font-size: 16px;
+}
+.footer__email-btn {
+  color: #FAFAFC;
+  background-color: #292C32;
+  padding: 8px 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.footer__bottom {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+.footer__webflow {
+  color: #fff;
+}
+.footer__icons {
+  gap: 20px;
+  display: flex;
+  justify-content: space-between;
+}
